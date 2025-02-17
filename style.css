@@ -624,6 +624,11 @@ html {
   top: 2rem;
   transition: top 4s 0.2s, opacity 1s;
 }
+.project .pirineosTexto {
+  position: absolute;
+  bottom: 5rem;
+  padding: 1rem;
+}
 
 .project:nth-child(odd):hover img {
   animation: oddImgAnim 4s 0.2s;
@@ -707,6 +712,13 @@ html {
     transform: rotateY(0);
   }
 }
+
+.pirineosTexto {
+  color: #aaa;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
 /*Big project*/
 .project-img-wrapper {
   position: fixed;
